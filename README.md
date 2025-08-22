@@ -33,8 +33,6 @@ Everything is created in official branch FreeCAD version 0.21.2
 **TODO:** 
  - Divider vanes to create bins with subcompartments.
  - "efficient floors" feature
- - Vase-mode-printable 1x1 template
-
 
 **How to use**
 
