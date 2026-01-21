@@ -1,6 +1,6 @@
 **Description**
 
-Gridfinity is an open standard for a grid-based storage system, developed by YouTuber [Zack Freedman](https://github.com/ZackFreedman). 
+Gridfinity is an open standard for a grid-based, 3D-printable storage system, developed by YouTuber [Zack Freedman](https://github.com/ZackFreedman). 
 This is a parametric implementation of Zack's standard in FreeCAD, allowing users to generate a variety of Gridfinity templates of any size and shape. Check [www.freecad.org](https://www.freecad.org).
 This is also intended as an accessible educational model for users looking to improve their skills in FreeCAD. The spreadsheet controlling the model contains lots of annotations and comments for anyone
 wishing to understand or replicate these features.
