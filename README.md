@@ -1,8 +1,11 @@
 **Description**
 
-Automatically generate Gridfinity templates of any size in FreeCAD, the free and open source parametric modelling software available to anyone at no cost. Check www.freecad.org.
+Gridfinity is an open standard for a grid-based storage system, developed by YouTuber [Zack Freedman](https://github.com/ZackFreedman). 
+This is a parametric implementation of Zack's standard in FreeCAD, allowing users to generate a variety of Gridfinity templates of any size and shape. Check [www.freecad.org](https://www.freecad.org).
+This is also intended as an accessible educational model for users looking to improve their skills in FreeCAD. The spreadsheet controlling the model contains lots of annotations and comments for anyone
+wishing to understand or replicate these features.
 
-The models correctly implement all features included in the official gridfinity specification:
+The models correctly implement the official gridfinity specification:
 
  - 0.25mm offset between baseplate and bins
  - all correct profiles
@@ -32,13 +35,13 @@ Everything is created in official branch FreeCAD version 0.21.2
 
 **TODO:** 
  - Divider vanes to create bins with subcompartments.
- - "efficient floors" feature
 
 **How to use**
 
 Open the model in Freecad. Double click the “data” entry in the feature tree to open the spreadsheet. Adjust values to your hearts content, and watch the model update in real time. 
 Pro tip: Click on the “Windows” menu, then select “tile” to view both the model view and the spreadsheet in split-screen-mode.
-Making adjustments
+
+**Making adjustments**
 
 All changes to the base model values should be made via the spreadsheet. Don't change stuff in the sketches themselves, or it will no longer update correctly. If you open a sketch and see a constraint in an orange font rather than the normal red, that means it's a calculated value based on the spreadsheet. Be careful not to break the formulas unless you know what you're doing.
 
